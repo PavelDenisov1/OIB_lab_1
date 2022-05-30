@@ -4,6 +4,18 @@ import math
 import re
 
 
+def test_qweqweqweqweqweqweqweqweqweqw():
+    sum = 0
+    for i in arr:
+        if i == '0':
+            sum = sum - 1
+        else:
+            sum = sum + 1
+    s = 1 / math.sqrt(128) * sum
+    p = math.erfc(s / math.sqrt(2))
+    print("Test_1\n" + "Sn: " + str(s) + "\nP: " + str(p))
+
+
 def test_1():
     sum = 0
     for i in arr:
